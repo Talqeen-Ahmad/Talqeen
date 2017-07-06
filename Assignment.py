@@ -1,4 +1,17 @@
 
+# Class 
+
+class myClass:
+	def __init__ (self,name):
+		self.name = name
+		print("Welcome " + self.name)
+		
+obj = myClass("Talqeen Ahmad")
+
+#............................................................................
+
+
+
 # for finding occurences in string
 
 def findOccurence(a,b):
